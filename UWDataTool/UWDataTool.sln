@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManager", "DataManager\DataManager.csproj", "{CB0BC402-BFF0-4BFD-ACBF-4A65D9329012}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataManager", "DataManager\DataManager.csproj", "{CB0BC402-BFF0-4BFD-ACBF-4A65D9329012}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{80D7C4FD-FFA1-4E02-B3B4-439B630E4E21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWDataApi", "UWDataApi\UWDataApi.csproj", "{418F515D-1480-49A5-913E-BE03F660CB83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UWDataApi", "UWDataApi\UWDataApi.csproj", "{418F515D-1480-49A5-913E-BE03F660CB83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWDataUI", "UWDataUI\UWDataUI.csproj", "{A99144EB-F769-458B-88F3-9BA3EE022BBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UWDataUI", "UWDataUI\UWDataUI.csproj", "{A99144EB-F769-458B-88F3-9BA3EE022BBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWDataTests", "UWDataTests\UWDataTests.csproj", "{AD0CB989-1322-43EA-91EC-D1771CBC2AF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UWDataTests", "UWDataTests\UWDataTests.csproj", "{AD0CB989-1322-43EA-91EC-D1771CBC2AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{FBA73021-F098-4936-BE95-23E660263C53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AD0CB989-1322-43EA-91EC-D1771CBC2AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD0CB989-1322-43EA-91EC-D1771CBC2AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD0CB989-1322-43EA-91EC-D1771CBC2AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA73021-F098-4936-BE95-23E660263C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA73021-F098-4936-BE95-23E660263C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA73021-F098-4936-BE95-23E660263C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA73021-F098-4936-BE95-23E660263C53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

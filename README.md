@@ -11,3 +11,21 @@ This part of the applicaiton is a C# Dontnet Core application. This can be run i
 Coming Soon.
 
 
+## Data Model
+We are planning to capture data from the following models:
+- WRF-GFS
+- WRF-GFS-Extended (for frames not covered by the WRF-GFS).
+- MMM5-NAM
+
+For these models we plan to capture the following data:
+- Temperature
+- Wind Speed Sustained
+- Wind Speed Gust
+- 850 MB Temps
+- 500 MB Temps
+- Preciptiation
+	- 3 Hour
+	- 24 hour
+	- 3 Hour Snow
+	- 24 Hour Snow
+- Freezing level
