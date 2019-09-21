@@ -4,20 +4,22 @@ using System.Text;
 
 namespace DataAccess.Models
 {
-    class UwModelRun
+    public class UwModelRun
     {
         public UwModelRun()
         {
             Frames = new List<UwModelFrame>();
         }
 
-        string Run { get; set; }
+        public string Id { get; set; }
 
-        string ProductName { get; set; }
+        public string Run { get; set; }
 
-        DateTime RunDate { get; set; }
+        public string ProductName { get; set; }
 
-        IList<UwModelFrame> Frames { get; set; }
+        public DateTime RunDate { get; set; }
+
+        public IList<UwModelFrame> Frames { get; set; }
 
 
     }

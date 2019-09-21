@@ -4,29 +4,31 @@ using System.Text;
 
 namespace DataAccess.Models
 {
-    class UwModelFrame
+    public class UwModelFrame
     { 
-        DateTime Date { get; set; }
+        public int Id { get; set; }
 
-        int Tempurature { get; set; }
+        public DateTime Date { get; set; }
 
-        int WindSpeedSustained { get; set; }
+        public int Tempurature { get; set; }
 
-        int WindSpeedGust { get; set; }
+        public int WindSpeedSustained { get; set; }
 
-        int mb850Temp { get; set; }
+        public int WindSpeedGust { get; set; }
 
-        int mb500Temp { get; set; }
+        public int mb850Temp { get; set; }
 
-        double Preciptiation3hour { get; set; }
+        public int mb500Temp { get; set; }
 
-        double Preciptiation24Hour { get; set; }
+        public double Preciptiation3hour { get; set; }
 
-        double Snow3Hour { get; set; }
+        public double Preciptiation24Hour { get; set; }
 
-        double Snow24Hour { get; set; }
+        public double Snow3Hour { get; set; }
 
-        int FreezingLevel { get; set; }
+        public double Snow24Hour { get; set; }
+
+        public int FreezingLevel { get; set; }
 
     }
 }
