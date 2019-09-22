@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccess
+namespace UWDataApi
 {
     public class MongoConfig
     {
@@ -15,17 +15,5 @@ namespace DataAccess
         public string UwCollection { get; set; }
 
         public string User { get; set; }
-
-        public static MongoConfig getConfigFromEnv()
-        {
-            return new MongoConfig()
-            {
-                Database = Environment.GetEnvironmentVariable("Mongo.Database") ?? "UwData",
-                ConnectionString = Environment.GetEnvironmentVariable("Mongo.ConnectionString") ?? "mongodb://localhost:27017",
-                Password = Environment.GetEnvironmentVariable("Mongo.Password") ?? "Password",
-                UwCollection = Environment.GetEnvironmentVariable("Mongo.UwCollection") ?? "UwData",
-                User = Environment.GetEnvironmentVariable("Mongo.User") ?? "Admin"
-            };
-        }
     }
 }

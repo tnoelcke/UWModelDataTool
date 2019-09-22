@@ -4,10 +4,8 @@ using System.Text;
 
 namespace DataAccess.Models
 {
-    public class UwModelFrame
+    public class UwModelFrame: IEntity
     { 
-        public int Id { get; set; }
-
         public DateTime Date { get; set; }
 
         public int Tempurature { get; set; }

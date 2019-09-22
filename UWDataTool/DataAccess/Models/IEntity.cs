@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccess.Clients
+namespace DataAccess.Models
 {
-    interface IMongoClient
+    public class IEntity
     {
-        
+        public int Id;
     }
 }

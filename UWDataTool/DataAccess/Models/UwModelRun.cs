@@ -4,14 +4,12 @@ using System.Text;
 
 namespace DataAccess.Models
 {
-    public class UwModelRun
+    public class UwModelRun: IEntity
     {
         public UwModelRun()
         {
             Frames = new List<UwModelFrame>();
         }
-
-        public string Id { get; set; }
 
         public string Run { get; set; }
 
